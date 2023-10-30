@@ -26,7 +26,7 @@ eval("__webpack_require__.r(__webpack_exports__);\n\n\n//# sourceURL=webpack://y
   \************************/
 /***/ (function(__unused_webpack___webpack_module__, __webpack_exports__, __webpack_require__) {
 
-eval("__webpack_require__.r(__webpack_exports__);\n\n\n//# sourceURL=webpack://yarn_js/./src/js/main.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n//トレンド\n\nconst arr = [\"aaa\", \"bbb\", \"ccc\"];\n// for (let i = 0; i < arr.length; i++) {\n//   console.log(arr[i]);\n// }\n\narr.forEach(c => {\n  console.log(c);\n});\narr.map(c => {\n  console.log(c);\n});\n\n//# sourceURL=webpack://yarn_js/./src/js/main.js?");
 
 /***/ })
 
