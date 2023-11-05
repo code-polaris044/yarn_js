@@ -26,7 +26,7 @@ eval("__webpack_require__.r(__webpack_exports__);\n\n\n//# sourceURL=webpack://y
   \************************/
 /***/ (function(__unused_webpack___webpack_module__, __webpack_exports__, __webpack_require__) {
 
-eval("__webpack_require__.r(__webpack_exports__);\n//トレンド\n\nconst arr = [\"aaa\", \"bbb\", \"ccc\"];\n// for (let i = 0; i < arr.length; i++) {\n//   console.log(arr[i]);\n// }\n\narr.forEach(c => {\n  console.log(c);\n});\narr.map(c => {\n  console.log(c);\n});\n\n//# sourceURL=webpack://yarn_js/./src/js/main.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n//トレンド\n\n// const arr = [\"aaa\", \"bbb\", \"ccc\"];\n// for (let i = 0; i < arr.length; i++) {\n//   console.log(arr[i]);\n// }\n\n// arr.forEach((c) => {\n//   console.log(c);\n// });\n\n// arr.map((c) => {\n//   console.log(c);\n// });\n\n// クラス名が \"btn\" の要素を選択する例\nconst btn = document.querySelector(\".btn\");\nbtn.addEventListener(\"click\", e => {\n  //どちらか\n  console.log(btn);\n  console.log(e.target);\n});\nconst obj = {\n  id: 1,\n  // name: \"Tanaka\",\n  age: 20\n};\n\n// if (obj.name) {\n//   console.log(obj.name);\n// }\n\nconsole.log(obj?.name);\n\n//# sourceURL=webpack://yarn_js/./src/js/main.js?");
 
 /***/ })
 
