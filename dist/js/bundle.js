@@ -16,7 +16,7 @@
   \*************************/
 /***/ (function(__unused_webpack___webpack_module__, __webpack_exports__, __webpack_require__) {
 
-eval("__webpack_require__.r(__webpack_exports__);\nwindow.addEventListener(\"load\", function () {\n  // ローディング画面の要素を取得\n  const loader = document.querySelector(\".loader\");\n\n  // ローディング画面を非表示にするためにクラスを削除\n  loader.classList.add(\"hide-loader\");\n\n  // ローディング画面を非表示にするアニメーションの時間（ミリ秒）\n  const animationDuration = 1000; // 1秒\n\n  // アニメーションが終了したらローディング画面を完全に非表示にする\n  setTimeout(function () {\n    loader.style.display = \"none\";\n  }, animationDuration);\n});\n\n//# sourceURL=webpack://yarn_js/./src/js/index.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n// window.addEventListener(\"load\", function () {\n//   // ローディング画面の要素を取得\n//   const loader = document.querySelector(\".loader\");\n\n//   // ローディング画面を非表示にするためにクラスを削除\n//   loader.classList.add(\"hide-loader\");\n\n//   // ローディング画面を非表示にするアニメーションの時間（ミリ秒）\n//   const animationDuration = 1000; // 1秒\n\n//   // アニメーションが終了したらローディング画面を完全に非表示にする\n//   setTimeout(function () {\n//     loader.style.display = \"none\";\n//   }, animationDuration);\n// });\n\n// ページの読み込みが完了したらローディング画面を非表示にする\nwindow.addEventListener(\"load\", () => {\n  const loader = document.querySelector(\".loader\");\n  loader.classList.add(\"none__loader\");\n  console.log(loader);\n});\n\n//# sourceURL=webpack://yarn_js/./src/js/index.js?");
 
 /***/ }),
 
