@@ -15,8 +15,28 @@
 // });
 
 // ページの読み込みが完了したらローディング画面を非表示にする
+// window.addEventListener("load", () => {
+//   const loader = document.querySelector(".loader");
+//   loader.classList.add("none__loader");
+//   console.log(loader);
+// });
+
+// 10秒後に実行パターン
+// window.addEventListener("load", () => {
+//   const loader = document.querySelector(".loader");
+//   setTimeout(() => {
+//     loader.classList.add("none__loader");
+//   }, 10000);
+// });
+
 window.addEventListener("load", () => {
-  const loader = document.querySelector(".loader");
-  loader.classList.add("none__loader");
-  console.log(loader);
+  // sessionStorageに"key"が設定されていない場合、初回アクセスとして扱う
+  if (!sessionStorage.getItem("key")) {
+    // ローディング画面を表示
+    const loader = document.querySelector(".loader");
+    loader.classList.add("none__loader");
+
+    // 初回アクセスフラグを設定
+    sessionStorage.setItem("key", "a");
+  }
 });
