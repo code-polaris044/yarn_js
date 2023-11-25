@@ -1,1 +1,5 @@
 {"version":3,"sourceRoot":"","sources":["../../src/sass/layouts/_template.scss","../../src/sass/projects/_about_pade.scss"],"names":[],"mappings":"AAEA,EACI,SACA,UACA,sBAGJ,MACI,kBAGJ,QACI,YACA,aACA,eACA,mBACA,yBACA,gCACA,mBACA,oBACA,qBACA,aACA,uBACA,mBACA,SAGJ,aACI,YACI,2MAQJ,sDAGJ,mBACI,GACI,YACI,4KAUZ,0BACI,qBAGJ,0BACI,oBAGJ,0BACI,qBAGJ,0BACI,oBAGJ,0BACI,qBAGJ,0BACI,oBAGJ,aACI,aAIJ,cACI,aClFJ,QACI,eACA","file":"style.css"}
+
+.ytutty {
+    bg  red
+}

@@ -42,4 +42,4 @@ window.addEventListener("load", () => {
     // 初回アクセスフラグを設定
     sessionStorage.setItem("key", "a");
   }
-});
+})\;
