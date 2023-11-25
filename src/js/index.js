@@ -29,6 +29,9 @@
 //   }, 10000);
 // });
 
+/* This code is adding an event listener to the window object for the "load" event. When the page
+finishes loading, the code inside the event listener will be executed. */
+
 window.addEventListener("load", () => {
   // sessionStorageに"key"が設定されていない場合、初回アクセスとして扱う
   if (!sessionStorage.getItem("key")) {
