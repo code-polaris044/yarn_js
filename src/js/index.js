@@ -38,8 +38,7 @@ window.addEventListener("load", () => {
     // ローディング画面を表示
     const loader = document.querySelector(".loader");
     loader.classList.add("none__loader");
-
     // 初回アクセスフラグを設定
     sessionStorage.setItem("key", "a");
   }
-})\;
+});
