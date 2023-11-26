@@ -31,8 +31,5 @@
   "browserslist": [
     "last 2 versions",
     "> 0.25%, not dead"
-  ],
-  "dependencies": {
-    "lottie-web": "^5.12.2"
-  }
+  ]
 }
