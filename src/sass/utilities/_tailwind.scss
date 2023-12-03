@@ -1,1 +1,6 @@
-@use "../components/"as *;
+@use "../components/" as *;
+
+.test {
+  background: red;
+  text-align: center;
+}
