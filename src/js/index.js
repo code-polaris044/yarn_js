@@ -33,13 +33,12 @@
 finishes loading, the code inside the event listener will be executed. */
 
 window.addEventListener("load", () => {
-  // sessionStorageに"key"が設定されていない場合、初回アクセスとして扱う
-  if (!sessionStorage.getItem("key")) {
-    // ローディング画面を表示
-    const loader = document.querySelector(".loader");
-    loader.classList.add("none__loader");
-
-    // 初回アクセスフラグを設定
-    sessionStorage.setItem("key", "a");
-  }
-})\;
+    // sessionStorageに"key"が設定されていない場合、初回アクセスとして扱う
+    if (!sessionStorage.getItem("key")) {
+        // ローディング画面を表示
+        const loader = document.querySelector(".loader");
+        loader.classList.add("none__loader");
+        // 初回アクセスフラグを設定
+        sessionStorage.setItem("key", "a");
+    }
+});
